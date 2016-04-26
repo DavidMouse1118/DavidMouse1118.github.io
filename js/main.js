@@ -56,6 +56,12 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
+$('.navbar-header .navbar-brand').click(function() {
+  if ($('.navbar-collapse.navbar-right.navbar-main-collapse').attr('class') == 'navbar-collapse navbar-right navbar-main-collapse collapse in') {
+    $('.navbar-toggle:visible').click();
+  }
+});
+
 	// skills chart
 	$(document).ready(function(e) {
 	//var windowBottom = $(window).height();

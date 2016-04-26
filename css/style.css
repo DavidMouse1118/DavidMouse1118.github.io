@@ -226,6 +226,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 #about .about-text {
 	margin-left: 10px;
+	text-align: center;
 }
 #about H4 {
 	color: #333;
@@ -871,4 +872,19 @@ header .intro-text {
     border: 2px solid #76818d;
     border-radius: 100%!important;
     font-size: 40px;
+}
+.carousel-indicators .active {
+		background-color: #2c3e50;
+}
+.carousel-indicators li{
+	  border: 1px solid #2c3e50;
+}
+#myCarousel .carousel-indicators {
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+}
+#myCarousel img{
+	max-width:100%;
+	max-height:100%;
 }
