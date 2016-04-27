@@ -180,7 +180,7 @@ ul, ol {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background: url(../img/homephoto2.jpg) no-repeat center center;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -347,6 +347,12 @@ ol.type li a:hover {
 	-ms-transform: scale(1.2);
 	-o-transform: scale(1.2);
 	transform: scale(1.2);
+}
+@media (max-width: 768px){
+	.portfolio-item:hover .card-block {
+		width: 77%;
+		margin: 0 auto;
+	}
 }
 .portfolio-item .hover-bg {
 	height: 260px;
@@ -887,4 +893,34 @@ header .intro-text {
 #myCarousel img{
 	max-width:100%;
 	max-height:100%;
+}
+
+.portfolio-item h4{
+	color: #E87E04;
+}
+
+.portfolio-item a{
+	color: #E87E04;
+}
+
+.portfolio-items[style] {
+   overflow: visible !important;
+}
+
+.portfolio-item .btn-primary{
+	border-color: #E87E04;
+}
+
+.img-center{
+	position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	height: 100%;
+}
+
+#portfolio .portfolio-item {
+   padding-top: 30px;
 }
