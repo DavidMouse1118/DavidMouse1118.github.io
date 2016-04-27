@@ -188,6 +188,8 @@ ul, ol {
 	-o-background-size: cover;
 }
 .intro .intro-body {
+	position: relative;
+  top: 15px;
 	display: table-cell;
 	vertical-align: middle;
 	color: #555;
@@ -764,6 +766,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 100%;
 	padding: 0;
 	text-align: left;
+}
+.intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+	color: #555;
 }
 .intro .intro-body H1 {
 	font-family: 'Lato', sans-serif;
