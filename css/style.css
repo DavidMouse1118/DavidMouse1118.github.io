@@ -352,8 +352,17 @@ ol.type li a:hover {
 }
 @media (max-width: 768px){
 	.portfolio-item:hover .card-block {
-		width: 77%;
+		width: 100%;
 		margin: 0 auto;
+	}
+
+	.portfolio-item:hover {
+		margin-bottom: 30px;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
 	}
 }
 .portfolio-item .hover-bg {
@@ -930,4 +939,12 @@ header .intro-text {
 
 #portfolio .portfolio-item {
    padding-top: 30px;
+}
+
+@media(max-width:768px) {
+	.portfolio-items .col-sm-6.col-md-3.col-lg-3[style] {
+    position: absolute !important;
+    left: 0px !important;
+    opacity: 1 !important;
+	}
 }
