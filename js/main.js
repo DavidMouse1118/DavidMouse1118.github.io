@@ -62,6 +62,14 @@ $('.navbar-header .navbar-brand').click(function() {
   }
 });
 
+// $(document).click(function(e) {
+//   // check that your clicked
+//   // element has no id=nav
+//   if( $(e.target).attr('class') != 'navbar navbar-custom') {
+//     $('.navbar-toggle:visible').click();
+//   }
+// });
+
 	// skills chart
 	$(document).ready(function(e) {
 	//var windowBottom = $(window).height();

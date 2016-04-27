@@ -770,6 +770,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Media Queries */
+@media(max-width:768px){
+	.intro {
+		height: 100%;
+		background: url(../img/homephoto3.jpg) no-repeat 63% center;
+		background-size: cover;
+	}
+}
 @media(min-width:768px) {
 .intro {
 	height: 100%;
