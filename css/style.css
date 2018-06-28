@@ -181,7 +181,7 @@ ul, ol {
 	text-align: center;
 	color: #fff;
 	/*background: url(../img/homephoto.jpg) no-repeat center center;*/
-	background-color: #000;
+	background-color: #FFFFFF;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -796,9 +796,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #2c3e50;
 }
 .intro .intro-body .intro-text {
-	float: left;
+	
 	text-align: center;
-	max-width: 75%;
 }
 .intro .intro-body .intro-text p {
 	font-family: 'Lato', sans-serif;
