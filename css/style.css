@@ -135,7 +135,7 @@ ul, ol {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 		.navbar-custom a {
-			color: #2c3e50;
+			color: #000000;
 		}
 
     .navbar-custom.top-nav-collapse {
@@ -189,7 +189,7 @@ ul, ol {
 }
 .intro .intro-body {
 	position: relative;
-  top: 15px;
+  top: -21px;
 	display: table-cell;
 	vertical-align: middle;
 	color: #555;
@@ -229,6 +229,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #about .about-text {
 	margin-left: 10px;
 	text-align: center;
+}
+#about .social {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+#about .social i.fa {
+    font-size: 37px;
+    padding: 4px 5px;
+    color: #000000;
+    transition: all 0.5s;
+}
+#about .social ul li {
+	display: inline-block;
+	margin: 0 20px;
 }
 #about H4 {
 	color: #333;
@@ -786,7 +801,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
-	color: #555;
+	color: #000000;
 }
 .intro .intro-body H1 {
 	font-family: 'Lato', sans-serif;
