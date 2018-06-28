@@ -141,7 +141,7 @@ ul, ol {
     .navbar-custom.top-nav-collapse {
       	padding: 6px 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background-color: #000000;
+        background-color: #616A6B;
     }
 		.navbar-custom a.top-nav-change {
 			color: #f4f5f6;
@@ -774,7 +774,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #000000;
+	background: #616A6B;
 	color: #ddd;
 	padding: 30px 0 25px 0;
 }
