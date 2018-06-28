@@ -312,7 +312,7 @@ ol.type li a {
 	padding: 2px 8px;
 }
 ol.type li a.active {
-	color: #E87E04;
+	color: #3A5199;
 	padding: 2px 8px;
 }
 ol.type li a:hover {
@@ -950,7 +950,7 @@ header .intro-text {
 }
 
 .portfolio-item a{
-	color: #E87E04;
+	color: #3A5199;
 }
 
 .portfolio-items[style] {
@@ -958,7 +958,7 @@ header .intro-text {
 }
 
 .portfolio-item .btn-primary{
-	border-color: #E87E04;
+	border-color: #3A5199;
 }
 
 .img-center{
