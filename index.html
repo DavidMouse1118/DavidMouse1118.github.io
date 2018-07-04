@@ -160,7 +160,6 @@
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
             <li><a href="#" data-filter=".web">Web App Development</a></li>
-            <li><a href="#" data-filter=".Automation">Automation Tests</a></li>
             <li><a href="#" data-filter=".Mobile">Hybrid Mobile App Development</a></li>
           </ol>
         </li>
@@ -172,16 +171,66 @@
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="card">
-            <div class="hover-bg card-img-top"> <a href="img/personalWeb.PNG" title="HomePage" rel="prettyPhoto">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <div class="hover-bg card-img-top"> <a href="img/VChat1.PNG" title="Chat room set up" rel="prettyPhoto">
+                      <div class="hover-text">
+                        <h4>VChat</h4>
+                        <small>Chat room set up</small>
+                        <div class="clearfix"></div>
+                        <i class="fa fa-search"></i> </div>
+                      <img src="img/VChat1.PNG" class="img-center" alt="VChat"> </a> </div>
+                  </div>
+                  <div class="item">
+                    <div class="hover-bg card-img-top"> <a href="img/VChat2.PNG" title="Chat room" rel="prettyPhoto">
+                      <div class="hover-text">
+                        <h4>VChat</h4>
+                        <small>Chat room</small>
+                        <div class="clearfix"></div>
+                        <i class="fa fa-search"></i> </div>
+                      <img src="img/VChat2.PNG" class="img-center" alt="VChat"> </a> </div>
+                  </div>
+                  <div class="item">
+                    <div class="hover-bg card-img-top"> <a href="img/VChat3.PNG" title="Empty Chat room" rel="prettyPhoto">
+                      <div class="hover-text">
+                        <h4>VChat</h4>
+                        <small>Empty Chat room</small>
+                        <div class="clearfix"></div>
+                        <i class="fa fa-search"></i> </div>
+                      <img src="img/VChat3.PNG" class="img-center" alt="VChat"> </a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-block" style="padding-top: 10px">
+                <h4 class="card-title">VChat</h4>
+                <p class="card-text">A live-stream video chat app that leverages the RTC protocol, built with React, Redux, Webrtc, NodeJS, and Express.</p>
+                <p class="card-text">[Demo] -> <a href="https://vchat-demo-1118.herokuapp.com/">https://vchat-demo-1118.herokuapp.com/</a></p>
+                <a href="https://github.com/DavidMouse1118/VChat" target="_blank"class="btn btn-primary">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="card">
+            <div class="hover-bg card-img-top"> <a href="img/personalWeb2.PNG" title="HomePage" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Personal Website</h4>
                 <small>HomePage</small>
                 <div class="clearfix"></div>
                 <i class="fa fa-search"></i> </div>
-              <img src="img/personalWeb.PNG" class="img-responsive" alt="Personal Website"> </a> </div>
+              <img src="img/personalWeb2.PNG" class="img-responsive" alt="Personal Website"> </a> </div>
               <div class="card-block">
                 <h4 class="card-title">Personal Website</h4>
-                <p class="card-text">Developed on <b>Dreamweaver</b> and <b>Atom</b> with <b>HTML/CSS</b>, <b>Bootstrap</b> and <b>jQuery</b> and to present my projects and skills to others</p>
+                <p class="card-text">Developed a personal website to present my skills and showcase my projects using HTML/CSS, Bootstrap and jQuery</p>
                 <a href="https://github.com/DavidMouse1118/DavidMouse1118.github.io" target="_blank"class="btn btn-primary">GitHub</a>
               </div>
             </div>
@@ -249,8 +298,8 @@
                 </div>
               </div>
               <div class="card-block" style="padding-top: 10px">
-                <h4 class="card-title">Content server 16 mobile (Hybrid Mobile Application)</h4>
-                <p class="card-text">Developed a Hybrid Mobile App using HTML5/CSS3, <b>Ionic framework</b>, <b>MCV framework</b><b>(AngularJS)</b>, <b>Cordova</b>, <b>RestAPI</b>, <b>Atom</b> for Content server 16, during my Work term in Open Text Corporation</p>
+                <h4 class="card-title">Content server 16 mobile</h4>
+                <p class="card-text">Developed first release of mobile version of Content server 16 with Angularjs , Cordova, and Ionic Framework</p>
                 <a href="#" class="btn btn-primary">GitHub</a>
               </div>
             </div>
@@ -309,28 +358,10 @@
               </div>
               <div class="card-block" style="padding-top: 10px">
                 <h4 class="card-title">Oh My Fish (Hybrid Mobile Application)</h4>
-                <p class="card-text">Developed with <b>Ionic Framework</b>, <b>AngularJS</b> and <b>HTML/CSS</b> during Fishackathon 2016.</p>
-                <p class="card-text">A Standardized Fisheries Data management and sharing mobile application that allow fishermen manage their operations log and offer a free platform for their information resources sharing. </p>
-                <a href="https://github.com/danblitzhou/oh-my-fish" class="btn btn-primary">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 Automation">
-          <div class="portfolio-item">
-            <div class="card">
-            <div class="hover-bg card-img-top"> <a href="img/testing.png" title="Test Automation on UI and RestAPI" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Test Automation</h4>
-                <small>Test Automation on UI and RestAPI</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/testing.png" class="img-center" alt="Test Automation" style="width: 100%"> </a> </div>
-              <div class="card-block">
-                <h4 class="card-title">Test Automation on UI and RestAPI (Open Text)</h4>
-                <p class="card-text">Impliment <b>Page Object</b> and <b>Page Factory Pattern</b> in the automation testing to make test simple and maintainable.</p>
-                <p class="card-text">Using Java, <b>JUnit</b> and <b>Selenium Webdriver</b> to produce test cases on UI Widgets and related functionalites based on the previous manual test cases.</p>
-                <p class="card-text">Created <b>Rest Api tests</b> by using Apache HttpClients, google gson to make the api call and parse the <b>json</b> response properly into a <b>Hashmap</b> or set, then verify the results</p>
+                <p class="card-text">Led team of 4 developers to build a hybrid mobile app for anglers to record catches based on GPS location</p>
+                <p class="card-text">Built front end dashboard and interactive fishing maps with Ionic and Google Maps API</p>
+                <p class="card-text">Used MongoDB’s geospatial querying and Mongoose Query Builder to enable radius search</p>
+                <a href="https://github.com/DavidMouse1118/oh-my-fish" class="btn btn-primary">GitHub</a>
               </div>
             </div>
           </div>
